@@ -1,0 +1,12 @@
+
+#hero {
+  height: 100vh;
+  background-image: url('/WallPaperHome.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+
+   background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+  background-blend-mode: darken; /* Mistura a cor com a imagem */
+}
