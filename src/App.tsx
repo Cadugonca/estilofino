@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Header from "./components/Header"
+import Header from "./components/header"
 import Home from './pages/Home'
 import Servicos from './pages/Servicos'
 import Contato from './pages/Contato'
+import Footer from './components/footer'
 
 
 export default function App() {
@@ -14,9 +15,12 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/servicos" element={<Servicos />} />
           <Route path="/contato" element={<Contato />} />
+
         </Routes>
       </main>
+       <Footer />
     </Router>
+   
   )
 }
 
